@@ -1,0 +1,836 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Payment gateway - Unitpay for WooCommerce\n"
+"POT-Creation-Date: 2020-07-22 16:07+0300\n"
+"PO-Revision-Date: 2020-07-22 16:06+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wc-unitpay.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-wc-unitpay-method.php:120
+#: includes/class-wc-unitpay-method.php:836
+msgid "Unitpay"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:125
+msgid "Pay via Unitpay."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:618
+msgid "Main settings"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:620
+msgid ""
+"Without these settings, the payment gateway will not work. Be sure to make "
+"settings in this block."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:625
+msgid "Online / Offline"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:627
+msgid "Tick the checkbox if you need to activate the payment gateway."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:628
+msgid ""
+"On disconnection, the payment gateway will not be available for selection on "
+"the site. It is useful for payments through subsidiaries, or just in case of "
+"temporary disconnection."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:634
+msgid "Public Key"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:636
+msgid "Copy Public Key from your account page in unitpay system."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:642
+#: includes/class-wc-unitpay-method.php:711
+msgid "Secret Key"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:644
+#: includes/class-wc-unitpay-method.php:713
+msgid "Copy Secret Key from your account page in unitpay system."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:648
+msgid ""
+"Address to notify the site of the results of operations in the background. "
+"Copy the address and enter it in your personal account UNITPAY in the "
+"technical settings. Notification method: POST."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:652
+msgid "Result Url"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:659
+msgid ""
+"The address for the user to go to the site after successful payment. Copy "
+"the address and enter it in your personal account UNITPAY in the technical "
+"settings. Notification method: POST. You can specify other addresses of your "
+"choice."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:663
+msgid "Success Url"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:670
+msgid ""
+"The address for the user to go to the site, after payment with an error. "
+"Copy the address and enter it in your personal account UNITPAY in the "
+"technical settings. Notification method: POST. You can specify other "
+"addresses of your choice."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:674
+msgid "Fail Url"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:695
+msgid "Parameters for test payments"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:697
+msgid ""
+"Passwords and hashing algorithms for test payments differ from those "
+"specified for real payments."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:702
+msgid "Test mode"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:704
+#: includes/class-wc-unitpay-method.php:721
+#: includes/class-wc-unitpay-method.php:795
+msgid "Select the checkbox to enable this feature. Default is enabled."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:705
+msgid ""
+"When you activate the test mode, no funds will be debited. In this case, the "
+"payment gateway will only be displayed when you log in with an administrator "
+"account. This is done in order to protect you from false orders."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:719
+msgid "Test notification display on the test mode"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:722
+msgid ""
+"A notification about the activated test mode will be displayed when the "
+"payment."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:740
+msgid "Sub methods"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:742
+msgid "General settings for the sub methods of payment."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:747
+msgid "Enable sub methods"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:749
+#: includes/class-wc-unitpay-method.php:758
+#: includes/class-wc-unitpay-method.php:767
+#: includes/class-wc-unitpay-method.php:826
+#: includes/class-wc-unitpay-method.php:878
+#: includes/class-wc-unitpay-method.php:987
+#: includes/class-wc-unitpay-method.php:996
+#: includes/class-wc-unitpay-method.php:1005
+#: includes/class-wc-unitpay-method.php:1014
+#: includes/class-wc-unitpay-method.php:1023
+#: includes/class-wc-unitpay-method.php:1032
+#: includes/class-wc-unitpay-method.php:1082
+#: includes/class-wc-unitpay-method.php:1091
+#: includes/class-wc-unitpay-method.php:1169
+#: includes/class-wc-unitpay-method.php:1178
+msgid "Select the checkbox to enable this feature. Default is disabled."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:750
+msgid "Use of all mechanisms add a child of payment methods."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:756
+msgid "Check available via the API"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:759
+msgid "Check whether child methods are currently available for payment."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:765
+msgid "Show the total amount including the fee"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:768
+msgid ""
+"If you enable this option, the exact amount payable, including fees, will be "
+"added to the payment method headers."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:786
+msgid "Interface"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:788
+msgid "Customize the appearance. Can leave it at that."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:793
+msgid "Show icon?"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:797
+msgid "Next to the name of the payment method will display the logo Unitpay."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:802
+msgid "Language interface"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:806
+msgid "Russian"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:807
+msgid "English"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:809
+msgid "What language interface displayed for the customer on Unitpay?"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:815
+msgid "Language based on the locale?"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:817
+msgid "Enable user language automatic detection?"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:818
+msgid ""
+"Automatic detection of the users language from the WordPress environment."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:824
+msgid "Skip the received order page?"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:827
+msgid "This setting is used to reduce actions when users switch to payment."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:833
+msgid "Title"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:835
+msgid "This is the name that the user sees during the payment."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:841
+msgid "Order button text"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:843
+msgid "This is the button text that the user sees during the payment."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:844
+msgid "Goto pay"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:849
+msgid "Description"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:851
+msgid ""
+"Description of the method of payment that the customer will see on our "
+"website."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:852
+msgid "Payment via Unitpay."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:869
+msgid "Cart content sending (54fz)"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:871
+msgid ""
+"These settings are required only for legal entities in the absence of its "
+"cash machine."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:876
+msgid "The transfer of goods"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:879
+msgid ""
+"When you select the option, a check will be generated and sent to the tax "
+"and customer. When used, you must set up the VAT of the items sold. VAT is "
+"calculated according to the legislation of the Russian Federation. There may "
+"be differences in the amount of VAT with the amount calculated by the store."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:885
+msgid "Taxation system"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:890
+msgid "General"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:891
+msgid "Simplified, income"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:892
+msgid "Simplified, income minus consumption"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:893
+msgid "Single tax on imputed income"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:894
+msgid "Single agricultural tax"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:895
+msgid "Patent system of taxation"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:901
+msgid "Default VAT rate"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:906
+msgid "Without the vat"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:907
+msgid "VAT 0%"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:908
+msgid "VAT 10%"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:909
+msgid "VAT 20%"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:910
+msgid "VAT receipt settlement rate 10/110"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:911
+msgid "VAT receipt settlement rate 20/120"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:917
+msgid "Indication of the calculation method"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:918
+#: includes/class-wc-unitpay-method.php:937
+msgid ""
+"The parameter is optional. If this parameter is not configured, the check "
+"will indicate the default value of the parameter from the Personal account."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:923
+#: includes/class-wc-unitpay-method.php:942
+msgid "Default in Unitpay"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:924
+msgid "Prepayment 100%"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:925
+msgid "Partial prepayment"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:926
+msgid "Advance"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:927
+msgid "Full settlement"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:928
+msgid "Partial settlement and credit"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:929
+msgid "Transfer on credit"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:930
+msgid "Credit payment"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:936
+msgid "Sign of the subject of calculation"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:943
+msgid "Product"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:944
+msgid "Excisable goods"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:945
+msgid "Work"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:946
+msgid "Service"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:947
+msgid "Gambling rate"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:948
+msgid "Gambling win"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:949
+msgid "Lottery ticket"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:950
+msgid "Winning the lottery"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:951
+msgid "Results of intellectual activity"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:952
+msgid "Payment"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:953
+msgid "Agency fee"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:954
+msgid "Compound subject of calculation"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:955
+msgid "Another object of the calculation"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:956
+msgid "Property right"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:957
+msgid "Extraordinary income"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:958
+msgid "Insurance premium"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:959
+msgid "Sales tax"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:960
+msgid "Resort fee"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:978
+msgid "Orders notes"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:980
+msgid "Settings for adding notes to orders. All are off by default."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:985
+msgid "Errors when verifying the signature of requests"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:988
+msgid ""
+"Recording a errors when verifying the signature of requests from Unitpay."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:994
+msgid "Process payments"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:997
+msgid ""
+"Recording information about the beginning of the payment process by the user."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1003
+msgid "Successful payments"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1006
+msgid "Recording information about received requests with successful payment."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1012
+msgid "Background requests"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1015
+msgid ""
+"Recording information about the background queries about transactions from "
+"Unitpay."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1021
+msgid "Failed requests"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1024
+msgid ""
+"Recording information about the clients return to the canceled payment page."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1030
+msgid "Success requests"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1033
+msgid ""
+"Recording information about the clients return to the success payment page."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1051
+msgid "Technical details"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1053
+msgid ""
+"Setting technical parameters. Used by technical specialists. Can leave it at "
+"that."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1060
+msgid "Logging"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1062
+msgid ""
+"You can enable gateway logging, specify the level of error that you want to "
+"benefit from logging. All sensitive data in the report are deleted. By "
+"default, the error rate should not be less than ERROR."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1062
+msgid "Current file: "
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1066
+msgid "Off"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1080
+msgid "Cart clearing"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1083
+msgid ""
+"Clean the customers cart if payment is successful? If so, the shopping cart "
+"will be cleaned. If not, the goods already purchased will most likely remain "
+"in the shopping cart."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1089
+msgid "Mark order as cancelled?"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1092
+msgid ""
+"Change the status of the order to canceled when the user cancels the "
+"payment. The status changes when the user returns to the cancelled payment "
+"page."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1123
+#, php-format
+msgid "Any &quot;%1$s&quot; method"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1139
+#, php-format
+msgid "%1$s (#%2$s)"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1142
+#, php-format
+msgid "%1$s &ndash; %2$s"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1142
+msgid "Other locations"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1151
+msgid "Enable for shipping methods"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1156
+msgid ""
+"If only available for certain methods, set it up here. Leave blank to enable "
+"for all methods."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1160
+msgid "Select shipping methods"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1167
+msgid "Payment of the commission for the buyer"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1170
+msgid ""
+"When you enable this feature, the store will pay all customer Commission "
+"costs. Works only when you select a payment method on the site and for "
+"stores individuals."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1176
+msgid ""
+"Preliminary conversion of order currency into roubles for commission "
+"calculation"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1179
+msgid ""
+"If the calculation of the customer commission is included and the order is "
+"not in roubles, the order will be converted to roubles based on data from "
+"the Central Bank of Russia.\n"
+"\t\t\tThis is required due to poor Unitpay API."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1290
+msgid "Return to payment gateways"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1347
+msgid ""
+"TEST mode is active. Payment will not be charged. After checking, disable "
+"this mode."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1370
+msgid ""
+"The customer clicked the payment button, but an error occurred while getting "
+"the order object."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1391
+msgid ""
+"The customer clicked the payment button and was sent to the side of the "
+"Unitpay."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1405
+msgid ""
+"The customer clicked the payment button and was sent to the page of the "
+"received order."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1470
+msgid "Order number: "
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1562
+msgid "Pay"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1563
+msgid "Cancel & return to cart"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1655
+msgid "Delivery"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1810
+msgid "Order not found."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1815
+#, php-format
+msgid "Unitpay request. Sum: %1$s. Signature: %2$s. Remote signature: %3$s"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1834
+#, php-format
+msgid "Validate hash error. Local: %1$s Remote: %2$s"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1849
+msgid "Order successfully paid (TEST MODE)."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1858
+msgid "Order successfully paid."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1868
+msgid "Payment error, please pay other time."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1876
+msgid "The client returned to the payment success page."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1897
+msgid ""
+"Order cancellation. The client returned to the payment cancellation page."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:1915
+msgid "Api request error. Action not found."
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:2007
+msgid "active"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:2013
+msgid "inactive"
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:2017
+msgid "Test mode: "
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:2040
+msgid "Currency: "
+msgstr ""
+
+#: includes/class-wc-unitpay-method.php:2058
+msgid ""
+"The logging level is too low. Need to increase the level after debugging."
+msgstr ""
+
+#: includes/class-wc-unitpay.php:361
+msgid "Official site"
+msgstr ""
+
+#: includes/class-wc-unitpay.php:376
+msgid "Settings"
+msgstr ""
+
+#: includes/class-wc-unitpay.php:405
+msgid ""
+"The plugin for accepting payments through Unitpay for WooCommerce has been "
+"updated to a version that requires additional configuration."
+msgstr ""
+
+#: includes/class-wc-unitpay.php:407
+msgid "here"
+msgstr ""
+
+#: includes/class-wc-unitpay.php:408
+#, php-format
+msgid "Press %s (go to payment gateway settings)."
+msgstr ""
+
+#: includes/class-wc-unitpay.php:525
+msgid "Useful information"
+msgstr ""
+
+#: includes/class-wc-unitpay.php:529
+msgid "Official plugin page"
+msgstr ""
+
+#: includes/class-wc-unitpay.php:530
+msgid "Related news: UNITPAY"
+msgstr ""
+
+#: includes/class-wc-unitpay.php:531
+msgid "Plugins for WooCommerce"
+msgstr ""
+
+#: includes/class-wc-unitpay.php:551
+msgid "Errors not found. Payment acceptance is active."
+msgstr ""
+
+#: includes/class-wc-unitpay.php:555
+msgid ""
+"Warnings found. They are highlighted in yellow. You should attention to them."
+msgstr ""
+
+#: includes/class-wc-unitpay.php:559
+msgid ""
+"Critical errors were detected. They are highlighted in red. Payment "
+"acceptance is not active."
+msgstr ""
+
+#: includes/class-wc-unitpay.php:563
+msgid "Status"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Payment gateway - Unitpay for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://mofsy.ru/projects/wc-unitpay"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Integration Unitpay in WooCommerce as payment gateway."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mofsy"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://mofsy.ru"
+msgstr ""
