@@ -1997,6 +1997,11 @@ class Wc_Unitpay_Method extends WC_Payment_Gateway
 			$order_id = (int)$_GET['params']['account'];
 		}
 
+		if($order_id === 0 && array_key_exists('account', $_GET))
+		{
+			$order_id = (int)$_GET['account'];
+		}
+
 		$order = wc_get_order($order_id);
 
 		if($order === false)
